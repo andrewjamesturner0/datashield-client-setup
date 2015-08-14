@@ -1,0 +1,12 @@
+# variables
+RSTUDIO='rstudio-server-0.98.501-i386.deb'
+
+USER='user'
+
+R_LIBS_USER="/home/$USER/.lib/R/library"
+
+
+# functions
+check_root() {
+    (( EUID == 0 )) || ( echo "Error: Please run as root" && exit 1 )
+}
