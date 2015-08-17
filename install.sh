@@ -37,7 +37,7 @@ install_scripts=(
                 00-R.sh \
                 10-R-libs.sh \
                 20-devtools.sh \
-                30-install-RStudio.sh \
+                30-install-RStudio-server.sh \
                 )
 
 
